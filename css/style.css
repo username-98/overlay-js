@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    /* padding: 50px; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#modal {
+    background-color: white;
+    padding: 20px;
+    height: 200px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    border-radius: 5px;
+}
+
+#open-modal,
+#close-modal {
+    background: royalblue;
+    padding: 15px;
+    color: #fff;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+
+}
+
+#open-modal:hover,
+#close-modal:hover {
+    box-shadow: 0 0 20px royalblue;
+}
+
+
+
+#overlay {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
